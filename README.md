@@ -175,6 +175,12 @@ preston ls\
 
 to produce:
 
+```
+190GiB
+```
+
+which suggest that the corpus entails a little under 200 GiB of data.
+
 Also, the number of pdfs associated with content referenced in the corpus can be queried using
 
 ```
