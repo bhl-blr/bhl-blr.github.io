@@ -74,7 +74,7 @@ For instance, via:
 
 ```
 preston cat\
- --remote https://linker.bio,https://zenodo.org
+ --remote https://linker.bio,https://zenodo.org\
  hash://md5/45657d5177e716a2c339f4e6a3bb4f94\
  > wirth1953.pdf
 ```
@@ -167,7 +167,7 @@ The total volume of this corpus can be estimated using
 preston ls\
  --algo md5\
  --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
- --remotes https://linker.bio,https://zenodo.org
+ --remotes https://linker.bio,https://zenodo.org\
  | preston cat\
  | pv\
  > /dev/null
@@ -181,7 +181,7 @@ Also, the number of pdfs associated with content referenced in the corpus can be
 preston ls\
  --algo md5\
  --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
- --remotes https://linker.bio,https://zenodo.org
+ --remotes https://linker.bio,https://zenodo.org\
  | grep hasVersion\
  | grep partpdf\
  | grep -v well-known\
@@ -194,7 +194,7 @@ to produce 32320 items, or over 30k tracked pdfs. Note also that out of a total 
 preston ls\
  --algo md5\
  --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
- --remotes https://linker.bio,https://zenodo.org
+ --remotes https://linker.bio,https://zenodo.org\
  | grep hasVersion\
  | grep partpdf\
  | grep well-known\

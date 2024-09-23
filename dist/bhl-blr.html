@@ -290,7 +290,7 @@ that allows for looking up content by their digital signature (e.g., <a
 href="https://linker.bio/hash://md5/45657d5177e716a2c339f4e6a3bb4f94">hash://md5/45657d5177e716a2c339f4e6a3bb4f94</a>).</p>
 <p>For instance, via:</p>
 <pre><code>preston cat\
- --remote https://linker.bio,https://zenodo.org
+ --remote https://linker.bio,https://zenodo.org\
  hash://md5/45657d5177e716a2c339f4e6a3bb4f94\
  &gt; wirth1953.pdf</code></pre>
 <p>or via a alternate <a
@@ -371,7 +371,7 @@ their associated contents.</p>
 <pre><code>preston ls\
  --algo md5\
  --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
- --remotes https://linker.bio,https://zenodo.org
+ --remotes https://linker.bio,https://zenodo.org\
  | preston cat\
  | pv\
  &gt; /dev/null</code></pre>
@@ -381,7 +381,7 @@ corpus can be queried using</p>
 <pre><code>preston ls\
  --algo md5\
  --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
- --remotes https://linker.bio,https://zenodo.org
+ --remotes https://linker.bio,https://zenodo.org\
  | grep hasVersion\
  | grep partpdf\
  | grep -v well-known\
@@ -392,7 +392,7 @@ retrieved. This number can be estimated using:</p>
 <pre><code>preston ls\
  --algo md5\
  --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
- --remotes https://linker.bio,https://zenodo.org
+ --remotes https://linker.bio,https://zenodo.org\
  | grep hasVersion\
  | grep partpdf\
  | grep well-known\
