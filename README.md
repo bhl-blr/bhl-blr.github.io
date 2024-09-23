@@ -6,7 +6,7 @@ author:
  - Donat Agosti
 date: 2024-09-23
 ---
-[pdf](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/bhl-blr.pdf) / [docx](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/bhl-blr.docx) / [md](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/README.md)
+[pdf](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.pdf) / [docx](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.docx) / [md](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.md)
 
 [edit source](https://github.com/blr-bhl/blr-bhr.github.io/edit/main/README.md) / [share suggestions](https://github.com/bhl-blr/bhl-blr.github.io/issues/new)
 
