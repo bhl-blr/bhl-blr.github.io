@@ -158,7 +158,7 @@ preston ls\
 
 [2] Poelen, J. H. (2024). A Versioned Literature Corpus derived from Biodiversity Heritage Library hash://md5/53e144641ffded6800dea502a8bb47ed (0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13377084
 
-[3] Wirth, W. W. (1953). Biting midges of the heleid genus Stilobezzia in North America.  Proceedings of the United States National Museum, 103, 57–85. hash://md5/45657d5177e716a2c339f4e6a3bb4f94 https://doi.org/10.5281/zenodo.13682901
+[3] Wirth, W. W. (1953). Biting midges of the heleid genus Stilobezzia in North America.  Proceedings of the United States National Museum, 103, 57–85. https://www.biodiversitylibrary.org/part/71960 hash://md5/45657d5177e716a2c339f4e6a3bb4f94 https://doi.org/10.5281/zenodo.13682901 https://doi.org/10.5479/si.00963801.103-3316.57
 
 
 ### Appendix A. Metadata associated with digital artifact hash://md5/45657d5177e716a2c339f4e6a3bb4f94
