@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Jorrit H. Poelen" />
+  <meta name="author" content="Donat Agosti" />
+  <meta name="dcterms.date" content="2024-09-23" />
+  <title>A Versioned Literature Corpus derived from Biodiversity Heritage Library hash://md5/53e144641ffded6800dea502a8bb47ed</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height; auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">A Versioned Literature Corpus derived from
+Biodiversity Heritage Library
+hash://md5/53e144641ffded6800dea502a8bb47ed</h1>
+<p class="subtitle">(a working document)</p>
+<p class="author">Jorrit H. Poelen</p>
+<p class="author">Donat Agosti</p>
+<p class="date">2024-09-23</p>
+</header>
+<p><a
+href="https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/bhl-blr.pdf">pdf</a>
+/ <a
+href="https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/bhl-blr.docx">docx</a>
+/ <a
+href="https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/README.md">md</a></p>
+<p><a
+href="https://github.com/blr-bhl/blr-bhr.github.io/edit/main/README.md">edit
+source</a> / <a
+href="https://github.com/bhl-blr/bhl-blr.github.io/issues/new">share
+suggestions</a></p>
+<p>Biodiversity Heritage Library (BHL, https://biodiversitylibrary.org)
+contains hundreds of thousands of digital works related to
+biodiversity.</p>
+<p>This project, “Bridging Biodiversity Heritage Library (BHL) to
+Biodiversity Literature Repository (BLR)” [2], aims to create a reusable
+corpus of verifiable digital representations (or digital copies) of
+existing biodiversity literature. This citable and redistributable
+collection is anchored in pdfs of known provenance (or origin). In
+addition, the collection associates metadata to these digital artifacts.
+This metadata includes author names, journal, publication year, DOI <a
+href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>, urls and other identifying
+information.</p>
+<p>With this, this publication creates an explicit, verifiable
+association between a digital artifacts (the pdf) and their associated
+metadata, and allows for signed data citations <a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.
+These signed data citations enrich the existing associations with DOIs
+(or other identifiers) issued by publishers or other entities with
+verifiable links that do no rely on the complex sequence of dynamic
+redirection provided through the DOI/Handle System <a href="#fn3"
+class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. By
+decoupling the digital representations of works, we allow for
+verification of digital corpora independent of the type of storage media
+or communication method (e.g., spinning magnetic disk, http/tcp, Handle
+system) used.</p>
+<p>The current version of this corpus contains a versioned subset of
+metadata associated to specific titles (see below), covering over 30k
+items with references to copies of their associated pdfs.</p>
+<p>Included titles are:</p>
+<pre><code>Records of the Indian Museum
+Revue suisse de zoologie
+Bulletin of the Museum of Comparative Zoology at Harvard College
+Journal of mammalogy
+Proceedings of the Zoological Society of London
+Archivos do Museu Nacional do Rio de Janeiro
+The journal of the Bombay Natural History Society
+Proceedings of the Biological Society of Washington
+Bulletin of the British Museum (Natural History) Zoology
+Atti della Società Italiana di Scienze Naturali e del Museo Civico di Storia Naturale in Milano
+Atti della Società italiana di scienze naturali e del Museo civico di storia naturale di Milano
+Bonner zoologische Beiträge : Herausgeber: Zoologisches Forschungsinstitut und Museum Alexander Koenig, Bonn
+Zeitschrift für Säugetierkunde : im Auftrage der Deutschen Gesellschaft für Säugetierkunde e.V
+Annals of the Carnegie Museum
+Records of the Western Australian Museum
+Fieldiana. Zoology
+Occasional papers of the Museum of Natural History, the University of Kansas
+Zoologischer Anzeiger
+Proceedings of the United States National Museum</code></pre>
+<h2 id="example">Example</h2>
+<p>An example digital artifact in this versioned literature corpus is
+the pdf with signature or content id
+hash://md5/45657d5177e716a2c339f4e6a3bb4f94 <a href="#fn4"
+class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. A
+copy of this pdf was retrieved from
+https://www.biodiversitylibrary.org/partpdf/71960 on 2024-08-26 . And,
+through metadata provided through RIS, we have the following RIS record
+associated with the digital artifact, as retrieved via
+https://linker.bio/line:zip:hash://md5/4d71f93adf6d6b1ec1f06bf726318029!/data/bhlpart.ris!/L832925-L832938
+:</p>
+<pre><code>TY  - JOUR
+TI  - Biting midges of the heleid genus Stilobezzia in North America
+T2  - Proceedings of the United States National Museum
+VL  - 103
+IS  - 3316 
+UR  - https://www.biodiversitylibrary.org/part/71960
+PB  - Smithsonian Institution Press, [etc.]
+CY  - Washington
+PY  - 1953
+SP  - 57
+EP  - 85
+DO  - 10.5479/si.00963801.103-3316.57
+AU  - Wirth, Willis Wagner
+ER  -</code></pre>
+<h2 id="technical-info">Technical info</h2>
+<p>Files included in this publication are:</p>
+<p>HEAD - described the signature of this literature corpus as a MD5
+hash.</p>
+<p>titles.txt - list of a the BHL titles considered in this corpus</p>
+<p>items.txt - list of items considered in this corpus</p>
+<p>as well as the following files named after the content their contain
+using the md5 hash algorithm [1]:</p>
+<pre><code>data/a4/45/a445e6eb1138710be4b93db45ab7b4a9
+data/d2/68/d268444ddf44545c53e6bf4635b3ae57
+data/98/fb/98fbf06892fcf919bc2107446147cc4a
+data/1f/b7/1fb70a2c683eb7a5545900bc6668950f
+data/fe/b6/feb6470b553aa9e104a6d7114a424a05
+data/e1/9a/e19ad69093efab2b86c3ca04de8f95ba
+data/b9/01/b9014b0b403516b1e852748d72633c7d
+data/72/90/7290c3e847ed1d10e47e4fd12188b752
+data/63/af/63af62d86d0f3d4d26bfd534bf7282bb
+data/01/6c/016c9f11f52e6ce67c7399a4d588c2eb
+data/a2/8a/a28a615337c2c187a5d3286923642ad6
+data/a2/50/a250d215282393ad43494dd9de11da4a
+data/ac/44/ac44c9ac6746a9fe2babaac45ec58860
+data/3e/43/3e437559b980d2e88daf3c05ec2f4d77
+data/05/02/0502e4ea67c725e22f71aef16b164303
+data/53/e1/53e144641ffded6800dea502a8bb47ed
+data/b8/55/b855da1ec4dd0600c8fd736a0f413ec2
+data/35/2f/352fa9f7e46576462cf7840b2992de0d
+data/f2/06/f206133d0b42fc9126e36a30654748ec
+data/d8/6a/d86a121f36f8e6f081a20803444bc1aa</code></pre>
+<h2 id="technical-info-1">Technical info</h2>
+<p>This part is a technical description that defines this corpus and
+their associated contents.</p>
+<h3 id="history">History</h3>
+<p>The (version) history of this corpus can be queried by:</p>
+<pre><code>preston history\
+ --algo md5\
+ --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
+ --remotes https://linker.bio,https://zenodo.org</code></pre>
+<p>to produce:</p>
+<pre><code>&lt;hash://md5/53e144641ffded6800dea502a8bb47ed&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/b855da1ec4dd0600c8fd736a0f413ec2&gt; .
+&lt;hash://md5/b855da1ec4dd0600c8fd736a0f413ec2&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/7290c3e847ed1d10e47e4fd12188b752&gt; .
+&lt;hash://md5/7290c3e847ed1d10e47e4fd12188b752&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/3e437559b980d2e88daf3c05ec2f4d77&gt; .
+&lt;hash://md5/3e437559b980d2e88daf3c05ec2f4d77&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/352fa9f7e46576462cf7840b2992de0d&gt; .
+&lt;hash://md5/352fa9f7e46576462cf7840b2992de0d&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/ac44c9ac6746a9fe2babaac45ec58860&gt; .
+&lt;hash://md5/ac44c9ac6746a9fe2babaac45ec58860&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/d86a121f36f8e6f081a20803444bc1aa&gt; .
+&lt;hash://md5/d86a121f36f8e6f081a20803444bc1aa&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/1fb70a2c683eb7a5545900bc6668950f&gt; .
+&lt;hash://md5/1fb70a2c683eb7a5545900bc6668950f&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/63af62d86d0f3d4d26bfd534bf7282bb&gt; .
+&lt;hash://md5/63af62d86d0f3d4d26bfd534bf7282bb&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/b9014b0b403516b1e852748d72633c7d&gt; .
+&lt;hash://md5/b9014b0b403516b1e852748d72633c7d&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/f206133d0b42fc9126e36a30654748ec&gt; .
+&lt;hash://md5/f206133d0b42fc9126e36a30654748ec&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/98fbf06892fcf919bc2107446147cc4a&gt; .
+&lt;hash://md5/98fbf06892fcf919bc2107446147cc4a&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/a28a615337c2c187a5d3286923642ad6&gt; .
+&lt;hash://md5/a28a615337c2c187a5d3286923642ad6&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/e19ad69093efab2b86c3ca04de8f95ba&gt; .
+&lt;hash://md5/e19ad69093efab2b86c3ca04de8f95ba&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/feb6470b553aa9e104a6d7114a424a05&gt; .
+&lt;hash://md5/feb6470b553aa9e104a6d7114a424a05&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/a445e6eb1138710be4b93db45ab7b4a9&gt; .
+&lt;hash://md5/a445e6eb1138710be4b93db45ab7b4a9&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/016c9f11f52e6ce67c7399a4d588c2eb&gt; .
+&lt;hash://md5/016c9f11f52e6ce67c7399a4d588c2eb&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/a250d215282393ad43494dd9de11da4a&gt; .
+&lt;hash://md5/a250d215282393ad43494dd9de11da4a&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/0502e4ea67c725e22f71aef16b164303&gt; .
+&lt;hash://md5/0502e4ea67c725e22f71aef16b164303&gt; &lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt; &lt;hash://md5/d268444ddf44545c53e6bf4635b3ae57&gt; .
+&lt;urn:uuid:0659a54f-b713-4f86-a917-5be166a14110&gt; &lt;http://purl.org/pav/hasVersion&gt; &lt;hash://md5/d268444ddf44545c53e6bf4635b3ae57&gt; .</code></pre>
+<h3 id="volume">Volume</h3>
+<p>The total volume of this corpus can be estimated using</p>
+<pre><code>preston ls\
+ --algo md5\
+ --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
+ --remotes https://linker.bio,https://zenodo.org
+ | preston cat\
+ | pv\
+ &gt; /dev/null</code></pre>
+<p>to produce:</p>
+<p>Also, the number of pdfs associated with content referenced in the
+corpus can be queried using</p>
+<pre><code>preston ls\
+ --algo md5\
+ --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
+ --remotes https://linker.bio,https://zenodo.org
+ | grep hasVersion\
+ | grep partpdf\
+ | grep -v well-known\
+ | wc -l</code></pre>
+<p>to produce 32320 items, or over 30k tracked pdfs. Note also that out
+of a total of 32739 items, pdf content related to 419 items failed to be
+retrieved. This number can be estimated using:</p>
+<pre><code>preston ls\
+ --algo md5\
+ --anchor hash://md5/53e144641ffded6800dea502a8bb47ed\
+ --remotes https://linker.bio,https://zenodo.org
+ | grep hasVersion\
+ | grep partpdf\
+ | grep well-known\
+ | wc -l</code></pre>
+<h2 id="references">References</h2>
+<p>[1] Poelen, J. H. (2024, August 19). Bug Pictures Beyond The
+Internet. Zenodo. https://doi.org/10.5281/zenodo.13350983</p>
+<p>[2] Poelen, J. H. (2024). A Versioned Literature Corpus derived from
+Biodiversity Heritage Library
+hash://md5/53e144641ffded6800dea502a8bb47ed (0.1) [Data set]. Zenodo.
+https://doi.org/10.5281/zenodo.13377084</p>
+<p>[3] Wirth, W. W. (1953). Biting midges of the heleid genus
+Stilobezzia in North America. Proceedings of the United States National
+Museum, 103, 57–85. https://www.biodiversitylibrary.org/part/71960
+hash://md5/45657d5177e716a2c339f4e6a3bb4f94
+https://doi.org/10.5281/zenodo.13682901
+https://doi.org/10.5479/si.00963801.103-3316.57</p>
+<h3
+id="appendix-a.-metadata-associated-with-digital-artifact-hashmd545657d5177e716a2c339f4e6a3bb4f94">Appendix
+A. Metadata associated with digital artifact
+hash://md5/45657d5177e716a2c339f4e6a3bb4f94</h3>
+<pre><code>curl\
+ --silent\
+ `https://linker.bio/line:zip:hash://md5/4d71f93adf6d6b1ec1f06bf726318029!/data/bhlpart.ris!/L832925-L832938`</code></pre>
+<p>produces:</p>
+<pre><code>TY  - JOUR
+TI  - Biting midges of the heleid genus Stilobezzia in North America
+T2  - Proceedings of the United States National Museum
+VL  - 103
+IS  - 3316
+UR  - https://www.biodiversitylibrary.org/part/71960
+PB  - Smithsonian Institution Press, [etc.]
+CY  - Washington
+PY  - 1953
+SP  - 57
+EP  - 85
+DO  - 10.5479/si.00963801.103-3316.57
+AU  - Wirth, Willis Wagner
+ER  - </code></pre>
+<aside id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Digital Object Identifiers (DOI) are digital identifiers
+for any kind of object, physical, digital or abstract. Through the
+“Handle System”, these DOIs may be used on the Internet as a way to
+query for available metadata on the referenced object through a complex
+redirection scheme based on DNS, TCP/IP, and a centralized service
+operating on https://doi.org .<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Elliott M.J., Poelen, J.H. &amp; Fortes, J.A.B. (2023)
+Signing data citations enables data verification and citation
+persistence. Sci Data. https://doi.org/10.1038/s41597-023-02230-y
+hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Poelen, J. H. (2024, August 19). Bug Pictures Beyond The
+Internet. Zenodo. https://doi.org/10.5281/zenodo.13350983<a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Wirth, W. W. (1953). Biting midges of the heleid genus
+Stilobezzia in North America. Proceedings of the United States National
+Museum, 103, 57–85. https://www.biodiversitylibrary.org/part/71960
+hash://md5/45657d5177e716a2c339f4e6a3bb4f94
+https://doi.org/10.5281/zenodo.13682901
+https://doi.org/10.5479/si.00963801.103-3316.57<a href="#fnref4"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
+</body>
+</html>
