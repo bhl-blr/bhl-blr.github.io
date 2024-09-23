@@ -6,13 +6,13 @@ author:
  - Donat Agosti
 date: 2024-09-23
 ---
-[pdf](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/bhl-blr.pdf) / [docx](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/bhl-blr.docx) / [md](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/README.md)
+[pdf](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.pdf) / [docx](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.docx) / [md](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.md)
 
 [edit source](https://github.com/blr-bhl/blr-bhr.github.io/edit/main/README.md) / [share suggestions](https://github.com/bhl-blr/bhl-blr.github.io/issues/new)
 
 Biodiversity Heritage Library (BHL, https://biodiversitylibrary.org) contains hundreds of thousands of digital works related to biodiversity. 
 
-This project, "Bridging Biodiversity Heritage Library (BHL) to Biodiversity Literature Repository (BLR)" [2], aims to create a reusable corpus of verifiable digital representations (or digital copies) of existing biodiversity literature. This citable and redistributable collection is anchored in pdfs of known provenance (or origin). In addition, the collection associates metadata to these digital artifacts. This metadata includes author names, journal, publication year, DOI ^[Digital Object Identifiers (DOI) are digital identifiers for any kind of object, physical, digital or abstract. Through the "Handle System", these DOIs may be used on the Internet as a way to query for available metadata on the referenced object through a complex redirection scheme based on DNS, TCP/IP, and a centralized service operating on https://doi.org .], urls and other identifying information.
+This project, "Bridging Biodiversity Heritage Library (BHL) to Biodiversity Literature Repository (BLR)" ^[Poelen, J. H. (2024). A Versioned Literature Corpus derived from Biodiversity Heritage Library hash://md5/53e144641ffded6800dea502a8bb47ed (0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13377084], aims to create a reusable corpus of verifiable digital representations (or digital copies) of existing biodiversity literature. This citable and redistributable collection is anchored in pdfs of known provenance (or origin). In addition, the collection associates metadata to these digital artifacts. This metadata includes author names, journal, publication year, DOI ^[Digital Object Identifiers (DOI) are digital identifiers for any kind of object, physical, digital or abstract. Through the "Handle System", these DOIs may be used on the Internet as a way to query for available metadata on the referenced object through a complex redirection scheme based on DNS, TCP/IP, and a centralized service operating on https://doi.org .], urls and other identifying information.
 
 With this, this publication creates an explicit, verifiable association between a digital artifacts (the pdf) and their associated metadata, and allows for signed data citations ^[Elliott M.J., Poelen, J.H. & Fortes, J.A.B. (2023) Signing data citations enables data verification and citation persistence. Sci Data. https://doi.org/10.1038/s41597-023-02230-y hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d]. These signed data citations enrich the existing associations with DOIs (or other identifiers) issued by publishers or other entities with verifiable links that do no rely on the complex sequence of dynamic redirection provided through the DOI/Handle System ^[Poelen, J. H. (2024, August 19). Bug Pictures Beyond The Internet. Zenodo. https://doi.org/10.5281/zenodo.13350983]. By decoupling the digital representations of works, we allow for verification of digital corpora independent of the type of storage media or communication method (e.g., spinning magnetic disk, http/tcp, Handle system) used. 
 
@@ -177,40 +177,4 @@ preston ls\
  | grep partpdf\
  | grep well-known\
  | wc -l
-```
-
-## References
-
-[1] Poelen, J. H. (2024, August 19). Bug Pictures Beyond The Internet. Zenodo. https://doi.org/10.5281/zenodo.13350983
-
-[2] Poelen, J. H. (2024). A Versioned Literature Corpus derived from Biodiversity Heritage Library hash://md5/53e144641ffded6800dea502a8bb47ed (0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13377084
-
-[3] Wirth, W. W. (1953). Biting midges of the heleid genus Stilobezzia in North America.  Proceedings of the United States National Museum, 103, 57–85. https://www.biodiversitylibrary.org/part/71960 hash://md5/45657d5177e716a2c339f4e6a3bb4f94 https://doi.org/10.5281/zenodo.13682901 https://doi.org/10.5479/si.00963801.103-3316.57
-
-
-### Appendix A. Metadata associated with digital artifact hash://md5/45657d5177e716a2c339f4e6a3bb4f94
-
-```
-curl\
- --silent\
- `https://linker.bio/line:zip:hash://md5/4d71f93adf6d6b1ec1f06bf726318029!/data/bhlpart.ris!/L832925-L832938`
-```
-
-produces:
-
-```
-TY  - JOUR
-TI  - Biting midges of the heleid genus Stilobezzia in North America
-T2  - Proceedings of the United States National Museum
-VL  - 103
-IS  - 3316
-UR  - https://www.biodiversitylibrary.org/part/71960
-PB  - Smithsonian Institution Press, [etc.]
-CY  - Washington
-PY  - 1953
-SP  - 57
-EP  - 85
-DO  - 10.5479/si.00963801.103-3316.57
-AU  - Wirth, Willis Wagner
-ER  - 
 ```
