@@ -79,7 +79,7 @@ preston cat\
  > wirth1953.pdf
 ```
 
-or via a alternate [point-and-click query by checksum (aka content hash, content id)](https://zenodo.org/search?q=_files.checksum%3A%22md5:45657d5177e716a2c339f4e6a3bb4f94%22&f=allversions%3Atrue):
+or via an alternate [point-and-click query by checksum (aka content hash, content id)](https://zenodo.org/search?q=_files.checksum%3A%22md5:45657d5177e716a2c339f4e6a3bb4f94%22&f=allversions%3Atrue):
  
 
 ```
