@@ -86,7 +86,7 @@ or via a alternate [point-and-click query by checksum (aka content hash, content
 https://zenodo.org/search?q=_files.checksum%3A%22md5:45657d5177e716a2c339f4e6a3bb4f94%22&f=allversions%3Atrue
 ```
 
-Alternatively, the internet can be searched for any other associated identifier (e.g., <https://www.biodiversitylibrary.org/part/71960>, <urn:lsid:biodiversitylibrary.org:part:71960>, <https://www.biodiversitylibrary.org/part/71960>, <https://doi.org/10.5479/si.00963801.103-3316.57>. However, as these (meta) data associated with these identifiers cannot be independently verified, the content was originally used and cited may have changed or disappeared altogether because of [content drift or link rot](https://en.wikipedia.org/wiki/Link_rot).
+Alternatively, the internet can be searched for any other associated identifier (e.g., <https://www.biodiversitylibrary.org/part/71960>, <https://doi.org/10.5479/si.00963801.103-3316.57>. However, as these (meta) data associated with these identifiers cannot be independently verified, the content was originally used and cited may have changed or disappeared altogether because of [content drift or link rot](https://en.wikipedia.org/wiki/Link_rot).
 
 ## Technical info
 Files included in this publication are:
