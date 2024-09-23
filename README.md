@@ -178,39 +178,3 @@ preston ls\
  | grep well-known\
  | wc -l
 ```
-
-## References
-
-[1] Poelen, J. H. (2024, August 19). Bug Pictures Beyond The Internet. Zenodo. https://doi.org/10.5281/zenodo.13350983
-
-[2] Poelen, J. H. (2024). A Versioned Literature Corpus derived from Biodiversity Heritage Library hash://md5/53e144641ffded6800dea502a8bb47ed (0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13377084
-
-[3] Wirth, W. W. (1953). Biting midges of the heleid genus Stilobezzia in North America.  Proceedings of the United States National Museum, 103, 57–85. https://www.biodiversitylibrary.org/part/71960 hash://md5/45657d5177e716a2c339f4e6a3bb4f94 https://doi.org/10.5281/zenodo.13682901 https://doi.org/10.5479/si.00963801.103-3316.57
-
-
-### Appendix A. Metadata associated with digital artifact hash://md5/45657d5177e716a2c339f4e6a3bb4f94
-
-```
-curl\
- --silent\
- `https://linker.bio/line:zip:hash://md5/4d71f93adf6d6b1ec1f06bf726318029!/data/bhlpart.ris!/L832925-L832938`
-```
-
-produces:
-
-```
-TY  - JOUR
-TI  - Biting midges of the heleid genus Stilobezzia in North America
-T2  - Proceedings of the United States National Museum
-VL  - 103
-IS  - 3316
-UR  - https://www.biodiversitylibrary.org/part/71960
-PB  - Smithsonian Institution Press, [etc.]
-CY  - Washington
-PY  - 1953
-SP  - 57
-EP  - 85
-DO  - 10.5479/si.00963801.103-3316.57
-AU  - Wirth, Willis Wagner
-ER  - 
-```
