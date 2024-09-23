@@ -5,6 +5,7 @@ author:
  - Jorrit H. Poelen
  - Donat Agosti
 date: 2024-09-23
+abstract: The Biodiversity Heritage Library (BHL) contains over 300k items of openly accessible digital/digitized works on topics such as biodiversity, ecology and biology. While these works are openly available through the internet, extra work is needed to make the digitized versions of the scholarly works citable, verifiable and reusable. We used Preston, a biodiversity data tracker, to help track, version, package, and mobilize, a subset of BHL to produce a 190 GiB corpus containing over 30k digital representations of works along with their associated metadata and origin. With this, we compiled a corpus of scholarly works that can be independently verified and securely cited regardless of the digital communication method used to transmit or store the digital versions of the works. Citable and independently verifiable corpora like these are essential ingredients for reproducable data integration workflows as well as machine learning models and other so-called artificial intelligence algorithms. 
 ---
 [pdf](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.pdf) / [docx](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.docx) / [md](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.md)
 
