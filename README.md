@@ -97,7 +97,7 @@ titles.txt - list of a the BHL titles considered in this corpus
 
 items.txt - list of items considered in this corpus 
 
-as well as the following files named after the content their contain using the md5 hash algorithm [1]:
+as well as the following files named after the content their contain using the md5 hash algorithm ^[Rivest, R., "The MD5 Message-Digest Algorithm", RFC 1321, DOI [10.17487/RFC1321](https://doi.org/10.17487/RFC1321), April 1992, <https://www.rfc-editor.org/info/rfc1321>.]:
 
 ```
 data/a4/45/a445e6eb1138710be4b93db45ab7b4a9
