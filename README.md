@@ -1,5 +1,5 @@
 ---
-title: A Versioned Literature Corpus derived from Biodiversity Heritage Library hash://md5/53e144641ffded6800dea502a8bb47ed
+title: A Versioned Literature Corpus Derived from Biodiversity Heritage Library hash://md5/53e144641ffded6800dea502a8bb47ed
 subtitle: (a working document)
 author: 
  - Jorrit H. Poelen
