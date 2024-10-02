@@ -11,6 +11,12 @@ abstract: The Biodiversity Heritage Library (BHL) contains over 300k items of op
 
 [edit source](https://github.com/blr-bhl/blr-bhr.github.io/edit/main/README.md) / [share suggestions](https://github.com/bhl-blr/bhl-blr.github.io/issues/new)
 
+<form class="searchbox" action="https://zenodo.org/communities/bhl-blr">
+  <input type="search" id="name" name="q" placeholder="Search BatLit..."/>
+  <button type="submit">Search</button> 
+</form>
+
+
 Biodiversity Heritage Library (BHL, <https://biodiversitylibrary.org>) contains hundreds of thousands of digital works related to biodiversity. 
 
 
