@@ -5,7 +5,7 @@ author:
  - Jorrit H. Poelen
  - Donat Agosti
 date: 2024-09-23
-abstract: The Biodiversity Heritage Library (BHL) contains over 300k items of openly accessible digital/digitized works on topics such as biodiversity, ecology and biology. While these works are openly available through the internet, extra work is needed to make the digitized versions of the scholarly works citable, verifiable and reusable. We used Preston, a biodiversity data tracker, to help track, version, package, and mobilize, a subset of BHL to produce a 190 GiB corpus containing over 30k digital representations of works along with their associated metadata and origin. With this, we compiled a corpus of scholarly works that can be independently verified and securely cited regardless of the digital communication method used to transmit or store the digital versions of the works. Citable and independently verifiable corpora like these are essential ingredients for reproducable data integration workflows as well as machine learning models and other so-called artificial intelligence algorithms. 
+abstract: The Biodiversity Heritage Library (BHL) contains over 300k documents of openly accessible digital/digitized works on topics such as biodiversity, ecology and biology. While these works are openly available through the internet, extra work is needed to make the digitized versions of the scholarly works citable, verifiable and reusable. We used Preston, a biodiversity data tracker, to help track, version, package, and mobilize, a subset of BHL to produce a 190 GiB corpus containing over 30k digital representations of works along with their associated metadata and origin. With this, we compiled a corpus of scholarly works that can be independently verified and securely cited regardless of the digital communication method used to transmit or store the digital versions of the works. Citable and independently verifiable corpora like these are essential ingredients for reproducable data integration workflows as well as machine learning models and other so-called artificial intelligence algorithms. 
 ---
 [pdf](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.pdf) / [docx](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.docx) / [md](https://github.com/bhl-blr/bhl-blr.github.io/raw/refs/heads/main/dist/bhl-blr.md)
 
@@ -24,7 +24,7 @@ This project, "Bridging Biodiversity Heritage Library (BHL) to Biodiversity Lite
 
 With this, this corpus creates an explicit, verifiable association between a digital artifacts (the pdf) and their associated metadata, and allows for signed data citations ^[Elliott M.J., Poelen, J.H. & Fortes, J.A.B. (2023) Signing data citations enables data verification and citation persistence. Sci Data. <https://doi.org/10.1038/s41597-023-02230-y> [hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d](https://linker.bio/hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d)]. These signed data citations enrich the existing associations with DOIs (or other identifiers) issued by publishers or other entities with verifiable links that do no rely on the complex sequence of dynamic redirection provided through the DOI/Handle System ^[Poelen, J. H. (2024, August 19). Bug Pictures Beyond The Internet. Zenodo. <https://doi.org/10.5281/zenodo.13350983> <https://jhpoelen.nl/arcadia-talk-2024-08-19>]. By decoupling the digital representations of works, we allow for verification of digital corpora independent of the type of storage media or communication method (e.g., spinning magnetic disk, http/tcp, Handle system) used. 
 
-The current version of this corpus contains a versioned subset of metadata associated to specific titles (see below), covering over 30k items with references to copies of their associated pdfs. 
+The current version of this corpus contains a versioned subset of metadata associated to specific titles (see below), covering over 30k works with references to copies of their associated pdfs. 
 
 Included titles are:
 
@@ -102,7 +102,7 @@ HEAD - described the signature of this literature corpus as a MD5 hash.
 
 titles.txt - list of a the BHL titles considered in this corpus
 
-items.txt - list of items considered in this corpus 
+parts.txt - list of parts (or documents) considered in this corpus 
 
 as well as the following files named after the content their contain using the md5 hash algorithm ^[Rivest, R., "The MD5 Message-Digest Algorithm", RFC 1321, DOI [10.17487/RFC1321](https://doi.org/10.17487/RFC1321), April 1992, <https://www.rfc-editor.org/info/rfc1321>.]:
 
